@@ -1,0 +1,58 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dbo
+
+spring:
+  profiles:
+    active: prod
+
+---
+
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: org.apache.derby.jdbc.ClientDriver
+    url: jdbc:derby://localhost/demo;create=true
+    username: APP
+    password: APP
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  liquibase:
+    contexts: prod
+    enabled: false
+
+---
+
+spring:
+  profiles: it
+  datasource:
+    driverClassName: org.apache.derby.jdbc.EmbeddedDriver
+    url: jdbc:derby:target/db;create=true
+    username: APP
+    password: APP
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+  liquibase:
+    contexts: it
+    enabled: true
+    change-log: classpath:/db/test-changelog.xml
+    rollback-file: target/liquibase-rollback-test.sql
+    user: APP
+    password: APP
+    liquibaseSchema: liquibase
+    test-rollback-on-update: true
+
+---
+
+spring:
+  profiles: test
+  jpa:
+    hibernate:
+      ddl-auto: none
+  liquibase:
+    contexts: test
+    enabled: false

@@ -1,0 +1,30 @@
+<configuration>
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%date{ISO8601} [%thread] %-5level [%logger{35}] >> %msg %n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>log/backend.log</file>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <fileNamePattern>log/backend-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+      <maxFileSize>10MB</maxFileSize>
+      <maxHistory>60</maxHistory> <!-- days -->
+      <totalSizeCap>10GB</totalSizeCap>
+    </rollingPolicy>
+
+    <append>true</append>
+    <immediateFlush>false</immediateFlush>
+    <encoder>
+      <pattern>%date{ISO8601} [%thread] %-5level [%logger{35}] >> %msg %n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="WARN">
+      <appender-ref ref="FILE" />
+      <appender-ref ref="CONSOLE" />
+  </root>
+  <logger name="liquibase" level="INFO" />
+</configuration>
