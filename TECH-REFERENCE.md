@@ -8,5 +8,8 @@
 
 
 
-# emergent design: Keep It Simple Stupid; You Ain't  Gone Need It
-# "Сделай сейчас проще, потом сделаем красиво"
+## Emergent design: Keep It Simple Stupid; You Ain't  Gone Need It
+   "Сделай сейчас проще, потом сделаем красиво"
+   
+## ATDD - acceptance test driven development
+Инженерная практика разработки програмного обеспечения через приемочные тесты, то есть перед началом разработки мы сначала формируем требования ритерии приемки в идеале в виде автотеста. 
