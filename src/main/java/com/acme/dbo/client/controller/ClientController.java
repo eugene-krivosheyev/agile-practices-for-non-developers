@@ -16,7 +16,6 @@ import javax.persistence.EntityNotFoundException;
 import javax.validation.Valid;
 
 import java.util.Collection;
-import java.util.List;
 
 import static lombok.AccessLevel.PRIVATE;
 import static lombok.AccessLevel.PUBLIC;
@@ -42,20 +41,7 @@ public class ClientController {
     @GetMapping
     @ApiOperation(value = "Info", notes = "Get client all clients", response = Collection.class)
     public Collection<Client> getClients() {
-        final List<Client> clientsAll = clients.findAll();
-        for (Client client : clientsAll) {
-            if (!client.getEnabled()) {
-                System.out.println(client.getLogin());
-            }
-        }
-
-        clientsAll.stream()
-            .filter(client -> !client.getEnabled())
-            .map(client -> client.getId())
-            .forEach(id -> System.out.println(id));
-
-
-        return clientsAll;
+        return clients.findAll();
     }
 
     @GetMapping("/{id}")
