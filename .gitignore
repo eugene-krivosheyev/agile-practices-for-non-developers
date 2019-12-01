@@ -5,5 +5,5 @@
 
 # IntelliJ
 .idea/
-*.iws
+*.iml
 out/
