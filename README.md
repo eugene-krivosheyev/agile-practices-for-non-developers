@@ -233,7 +233,7 @@ _Как помочь команде втаскивать успешные про
 - [ ] Maven build tooling
 - [ ] Maven dependency tooling
 ### Hand-on
-- [ ] Cloning project from *corporate* repo
+- [ ] Cloning project from [corporate repo](http://84.201.134.115:7990/scm/dbo/dbo-app.git)
 - [ ] Building and running app
 
 ## Переход к процессу разработки и поставки: дизайн процесса через выбор практик (1.5/0.5)
