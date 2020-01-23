@@ -6,13 +6,13 @@
   </appender>
 
   <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>log/backend.log</file>
+    <file>log/application.log</file>
 
     <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-      <fileNamePattern>log/backend-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
-      <maxFileSize>10MB</maxFileSize>
+      <fileNamePattern>log/application-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+      <maxFileSize>1MB</maxFileSize>
       <maxHistory>60</maxHistory> <!-- days -->
-      <totalSizeCap>10GB</totalSizeCap>
+      <totalSizeCap>10MB</totalSizeCap>
     </rollingPolicy>
 
     <append>true</append>
@@ -26,5 +26,4 @@
       <appender-ref ref="FILE" />
       <appender-ref ref="CONSOLE" />
   </root>
-  <logger name="liquibase" level="INFO" />
 </configuration>
