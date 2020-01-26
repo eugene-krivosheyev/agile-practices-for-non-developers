@@ -1,7 +1,5 @@
 # Glossary
 
----
-
 # Методологии работы с неопределённостью
 - BDUF _Big Design Up Front_ - перезакладывание, например на большое количество юзеров
 - KISS _Keep It Simple, Stupid_
@@ -39,3 +37,6 @@
 # TDD 
 - _"Test driven development"_
 - is an evolutionary approach to development which combines test-first development where you write a test before you write just enough production code to fulfill that test and refactoring.
+
+# Lena Nebo
+- [] Технический долг
