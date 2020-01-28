@@ -12,7 +12,7 @@
 - _You Aren’t Gonna Need It_
 - is a principle of extreme programming (XP) that states a programmer should not add functionality until deemed necessary. 
 ## Emergent Design 
-– предполагается возможность внесения изменений в любой точке по мере их появления. При таком подходе необходимо автотестирование (нужно заранее писать автотесты и прогонять их после внесения изменений), соответственно код обязан быть тестопригодным.
+- предполагается возможность внесения изменений в любой точке по мере их появления. При таком подходе необходимо автотестирование (нужно заранее писать автотесты и прогонять их после внесения изменений), соответственно код обязан быть тестопригодным.
 
 # Matrix vs. Feature teams
 - Matrix teams _отдел разработки, отдел тестирования и т.д._
@@ -35,3 +35,15 @@
 - is an evolutionary approach to development which combines test-first development where you write a test before you write just enough production code to fulfill that test and refactoring.
 
 # Технический долг
+
+# DevOps 
+- a set of practices that combines software development and information - technology operations
+
+# Cap Theorem 
+- a concept that a distributed database system can only have 2 of the 3: Consistency, Availability, Partition Tolerance;
+
+# Cherry Pick 
+- choose a commit from one branch and apply it onto another.
+
+# Markdown
+- Image: ![Image alt](https://raw.githubusercontent.com/Gregwar/Image/master/images/error.jpg)
