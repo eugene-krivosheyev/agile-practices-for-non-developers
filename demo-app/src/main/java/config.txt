@@ -1,0 +1,3 @@
+welcome.message=Enter Command
+security.new=true
+security.list=false
