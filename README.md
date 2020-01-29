@@ -230,3 +230,8 @@ _Как понять разработчиков и помочь им?_ 18 hrs/6 
 - [ ] Инсайты
 - [ ] 𝚫+
 - [ ] *Обоснованные* next actions на производстве
+
+---
+
+# Reading List
+- [Minimal Valuable Reading List](http://tinyurl.com/skilltrekreadinglist)
