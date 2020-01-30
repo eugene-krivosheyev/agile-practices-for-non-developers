@@ -116,6 +116,10 @@ _Как понять разработчиков и помочь им?_ 18 hrs/6 
 - [ ] Cloning project from application repo
 - [ ] Building and running app
 
+## Reference
+- [Обзор технологий разработки ПО (устаревший)](https://www.dropbox.com/s/va9lxobcyqzrtsa/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20%D0%9F%D0%9E.jpeg?dl=0)
+- [Обзор java-технологий (устаревший)](https://www.dropbox.com/s/92fmj5g7w9vylug/%D0%9E%D0%B1%D0%B7%D0%BE%D1%80%20java-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9.png?dl=0)
+- [Чеклист навыков java developer (устаревший)](https://www.dropbox.com/s/4wyoy97x26h004j/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%20%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B8%20%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D0%B2%20%5BJava%5D%20v2.docx?dl=0)
 ---
 
 ## Ретроспектива по прошлой сессии (0.5/0.5)
