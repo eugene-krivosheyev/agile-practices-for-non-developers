@@ -102,6 +102,9 @@ _Как понять разработчиков и помочь им?_ 18 hrs/6 
 - [ ] Take-away actions
 
 ## Введение в типовую архитектуру современных систем и автосборку (2.5/0.5)
+```
+git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-practices-application
+```
 ### Кейс: онлайн-система персонального финучета
 - [ ] Points Of View
 - [ ] Архитектура клиент-сервер
