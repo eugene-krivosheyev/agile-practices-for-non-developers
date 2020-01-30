@@ -84,11 +84,11 @@ _Как понять разработчиков и помочь им?_ 18 hrs/6 
 ### Configuration Management patterns
 - [ ] Repo patterns: centralized/decentralized
 - [ ] Branch patterns: GitFlow/TBD+FT
-- [ ] Pull Requests
+- [x] Pull Requests
 ### Hands-on
-- [ ] Github account
-- [ ] Central Glossary github repo
-- [ ] Teams make overall cross-team glossary with PRs
+- [x] Github account
+- [x] Central Glossary github repo
+- [x] Teams make overall cross-team glossary with PRs
 
 ## Sound-check (0/0)
 - [ ] Участники могут на своих машинах клонировать, собрать проект и запушить изменения
