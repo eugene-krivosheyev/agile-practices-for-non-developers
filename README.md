@@ -171,7 +171,8 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 - [ ] Retro
 - [ ] Современное отношение к дизайну процессов: от императивности и формальности к декларативности и гибкости
 - [ ] Выбор практик как process design core
-- [ ] Pair Programming
+### Team work
+- [ ] Pair Programming в формате Driver + Navigator
 ### CI/CD Pipeline Live Demo: пронос изменений по всему конвейеру с описанием задействованных практик
 - [ ] ATTD + Cucumber + Selenium
 - [ ] TBD + Feature Toggling
